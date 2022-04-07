@@ -12,9 +12,6 @@
   border-radius: 10px;
 }
 
-
-
-
 body {
   margin: 0;
   background-color: #ffffff;
@@ -90,3 +87,5 @@ footer p {
   color: #616161;
   text-align: center;
 }
+
+ol li{ text-align:center; width:300px; }
