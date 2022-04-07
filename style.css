@@ -1,31 +1,30 @@
+/* all my element adjuster */
 .box {
-  font-family: Arial;
+  font-family: 'Copperplate';
   background-color: #cfcfcf;
-  color: #fff;
+  color: #000000;
   text-align: center;
-  font-size: 40px;
-  padding: 20px;
-  margin: 20px;
+  font-size: 30px;
+  padding: 10px;
+  height: 30px;
 }
-
-.round {
-  border-radius: 10px;
-}
-
-.left {
-  text-align: left;
-}
-
 .center {
   text-align: center;
   list-style-position: inside;
 }
+.left {
+  text-align: left;
+}
+.round {
+  border-radius: 10px;
+}
 
+/* my body color */
 body {
   margin: 0;
   background-color: #ffffff;
 }
-
+/* the tags within the body colors and fonts */
 html, h1, h2, p {
   font-family: 'Copperplate';
   color: black;
@@ -36,18 +35,22 @@ header {
   text-align: center;
 }
 
-
+header h1 {
+  text-align: center;
+  font-size: 600px;
+  margin: 0;
+  font-family: 'Copperplate';
+}
 header > h1 {
   color: #616161;
 }
 
 main > h2 {
-  color: #616161;
+  color: black;
 }
 
-main > h2,
-main > p,
 footer > p {
+  text-align: center;
   font-family: 'Copperplate';
 }
 
@@ -56,41 +59,17 @@ main > h1 {
   padding: 10px;
 }
 
-header,
-nav,
-main,
-footer {
-  font-family: 'Copperplate';
-}
-
-header h1 {
-  text-align: center;
-  font-size: 600px;
-  margin: 0;
-  font-family: 'Copperplate';
-}
-
-main {
-  width: 300px;
-  margin: auto;
-}
-
-main:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-main p {
-  color: #493736;
-}
-
+/* The box is set to auto to horizontally center the element within the container */
 main {
   border: 3px solid #6b6b6b;
   padding: 10px;
   background-color: #bfbfbf;
+  width: 600px;
+  margin: auto;
 }
-
+main p {
+  color: #493736;
+}
 footer p {
   color: #616161;
   text-align: center;
