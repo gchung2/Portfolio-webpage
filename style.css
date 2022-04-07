@@ -1,1 +1,92 @@
+.box {
+  font-family: Arial;
+  background-color: #cfcfcf;
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  margin: 20px;
+}
 
+.round {
+  border-radius: 10px;
+}
+
+
+
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+}
+
+html, h1, h2, p {
+  font-family: 'Copperplate';
+  color: black;
+}
+
+header {
+  color: grey;
+  text-align: center;
+}
+
+
+header > h1 {
+  color: #616161;
+}
+
+main > h2 {
+  color: #616161;
+}
+
+main > h2,
+main > p,
+footer > p {
+  text-align: bottom; center;
+  font-family: 'Copperplate';
+}
+
+main > h1 {
+  margin: 0;
+  padding: 10px;
+}
+
+header,
+nav,
+main,
+footer {
+  font-family: 'Copperplate';
+}
+
+header h1 {
+  text-align: center;
+  font-size: 600 px;
+  margin: 0;
+  font-family: 'Copperplate';
+}
+
+main {
+  width: 300px;
+  margin: auto;
+}
+
+main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main p {
+  color: #493736;
+}
+
+main {
+  border: 3px solid #6b6b6b;
+  padding: 10px;
+  background-color: #bfbfbf;
+}
+
+footer p {
+  color: #616161;
+  text-align: center;
+}
