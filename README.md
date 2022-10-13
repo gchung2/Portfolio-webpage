@@ -1,6 +1,6 @@
 # Portfolio-webpage
 
-The previous portfolio's was an assignment from Thinkfuls bootcamp to give students the knowledge on created an html page and asked that we describe:
+The previous portfolio's was an assignment from Thinkfuls bootcamp to give students the knowledge on creating an html page and asked that we describe:
   - Who I am
   - Describe what I did before coming to thinkful
   - Provide a nav link to an image
