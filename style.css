@@ -4,7 +4,21 @@
   background: url('images/me.jpg');
   background-size:cover;
   position:relative;
+
 }
+.navbarScroll {
+  font-size: 1.2rem;
+  background: rgba(57, 58, 57, 0.342);
+}
+
+#about {
+  background-color:rgba(61, 61, 61, 0.158);
+}
+
+#portfolio {
+  background-color:rgba(62, 102, 92, 0.301);
+}
+
 /* text css above image*/
 .title {
   font-size: 4.5rem;
@@ -19,12 +33,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  background: rgba(57, 58, 57, 0.342);
 }
 
 .imageAboutPage {
   width: 100%;
 }
-
 
 /* social media icons styling */
 .social-icons {
@@ -80,9 +94,5 @@
 
 /* spacing on all sections */
 #about, #services, #portfolio, #contact {
-  margin-top: 4rem;
-  padding-top: 4rem;
-}
-#contact {
-  padding-bottom: 4rem;
+  padding-bottom: 1.8rem;
 }
