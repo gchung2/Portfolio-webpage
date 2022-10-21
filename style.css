@@ -4,19 +4,50 @@
   background: url('images/me.jpg');
   background-size:cover;
   position:relative;
+  padding-bottom: 3rem;
 
 }
+
+.portfolioContent {
+  position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.portfolioContent img {
+  max-width: 100%;
+  transition: all 0.3s;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+}
+
+.portfolioContent:hover img {
+  transform: scale(1.1);
+  filter: blur(5px);
+}
+
+.nav-link {
+  color: whitesmoke;
+}
+
+.nav-link:hover:hover {
+  color: #838383;
+}
+
 .navbarScroll {
   font-size: 1.2rem;
-  background: rgba(57, 58, 57, 0.342);
+  background: rgba(0, 0, 0, 0.877);
 }
 
 #about {
-  background-color:rgba(61, 61, 61, 0.158);
+  background-color:rgba(117, 116, 116, 0.158);
 }
 
 #portfolio {
-  background-color:rgba(62, 102, 92, 0.301);
+  margin-top: .5rem;
+  background-color:rgba(70, 33, 33, 0.411);
 }
 
 /* text css above image*/
@@ -94,5 +125,6 @@
 
 /* spacing on all sections */
 #about, #services, #portfolio, #contact {
-  padding-bottom: 1.8rem;
+  padding-bottom: 3rem;
+  padding-top: 30px;
 }
