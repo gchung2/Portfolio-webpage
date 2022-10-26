@@ -42,12 +42,19 @@
 }
 
 #about {
+  border-bottom: 20px rgba(0, 0, 0, 0.877);
   background-color:rgba(117, 116, 116, 0.158);
 }
 
 #portfolio {
-  margin-top: .5rem;
+  padding-top: 1.5rem;
+  border-bottom: 50px rgba(50, 13, 13);
+  padding-bottom: 1rem;
   background-color:rgba(70, 33, 33, 0.411);
+}
+
+#contact {
+  margin-top: 20px;
 }
 
 /* text css above image*/
@@ -85,7 +92,7 @@
 .site-footer {
   background-color: #838383;
 	text-align: center;
-	margin: 10px 0;
+  margin-top: 10px;
 	padding: 10px 0;
 }
 
@@ -126,5 +133,4 @@
 /* spacing on all sections */
 #about, #services, #portfolio, #contact {
   padding-bottom: 3rem;
-  padding-top: 30px;
 }
